@@ -1,0 +1,65 @@
+<div class="dropdown category-dropdown has-border" data-visible="true">
+    {% if user.is_authenticated %}
+        <a href="#" class="category-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="true" data-display="static" title="{{ user.username}}">
+            <span>{{ user.username}}</span>
+        </a>
+        <div class="dropdown-box">
+            <ul class="menu vertical-menu category-menu">
+
+                <li>
+                    <a href="{% url 'profile' %}">
+                        <i class="w-icon-cog2"></i>{% trans ' Управление профилем' %}
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'logout' %}">
+                        <i class="w-icon-logout"></i>{% trans ' Выход' %}
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    {% else %}
+        <a class="category-toggle" href="{% url 'login' %}" role="button" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="true" data-display="static" title="{% trans 'Вход' %}">
+            <i class="w-icon-account"><span>{% trans ' Вход' %}</span>
+        </a>
+        <span class="delimiter d-lg-show">/</span>
+        <a class="category-toggle" href="{% url 'register' %}" role="button" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="true" data-display="static" title="{% trans 'Регистрация' %}">
+            <span>{% trans ' Регистрация' %}</span>
+        </a>
+    {% endif %}
+</div>
+
+
+
+<div class="dropdown category-dropdown has-border" data-visible="true">
+    <a href="#" class="category-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+       aria-expanded="true" data-display="static" title="Browse Categories">
+        <span>{{ user.username}}</span>
+    </a>
+
+    <div class="dropdown-box">
+        <ul class="menu vertical-menu category-menu">
+
+            <li>
+                <a href="shop-fullwidth-banner.html">
+                    <i class="w-icon-heartbeat"></i>Healthy & Beauty
+                </a>
+            </li>
+            <li>
+                <a href="shop-fullwidth-banner.html">
+                    <i class="w-icon-gift"></i>Gift Ideas
+                </a>
+            </li>
+            <li>
+                <a href="shop-fullwidth-banner.html">
+                    <i class="w-icon-gamepad"></i>Toy & Games
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</div>

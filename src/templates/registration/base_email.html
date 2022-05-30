@@ -1,0 +1,26 @@
+{% load i18n static %}{% autoescape off %}
+
+    <!DOCTYPE html>
+    <html lang="ru">
+
+    <head>
+
+        <title>{% block head_title %}{% endblock head_title %}</title>
+
+        <!-- Default CSS -->
+        <link rel="stylesheet" type="text/css" href="{% static 'assets/css/style.min.css' %}">
+
+    </head>
+
+    <body>
+
+        <!-- Start of block content -->
+        {% block content %}
+        {% endblock content %}
+        <!-- End of block content -->
+
+    </body>
+
+    </html>
+
+{% endautoescape %}

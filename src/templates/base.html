@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+    <title>
+        {% block head_title %}Discount - каталог уцененных товаров в интернет-магазинах{% endblock head_title %}
+    </title>
+
+    <meta name="keywords" content="Discount - каталог уцененных товаров и цен в интернет-магазинах" />
+    <meta name="description" content="Discount - каталог уцененных товаров и цен в интернет-магазинах">
+    <meta name="author" content="Discount">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{% static 'assets/images/icons/favicon.png' %}">
+
+    <!-- WebFont.js -->
+    <link rel="preload" href="{% static 'assets/vendor/fontawesome-free/webfonts/fa-regular-400.woff2' %}"
+          as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="{% static 'assets/vendor/fontawesome-free/webfonts/fa-solid-900.woff2' %}"
+          as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="{% static 'assets/vendor/fontawesome-free/webfonts/fa-brands-400.woff2' %}"
+          as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="{% static 'assets/fonts/wolmart.woff%3Fpng09e' %}"
+          as="font" type="font/woff" crossorigin="anonymous">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/vendor/fontawesome-free/css/all.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/vendor/animate/animate.min.css' %}">
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/vendor/magnific-popup/magnific-popup.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/vendor/codemirror/codemirror.min.css' %}">
+
+    <!-- Default CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/style.min.css' %}">
+
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- Start of Header -->
+        {% include 'include/_header.html' %}
+        <!-- End of Header -->
+
+        <!-- Start of Main -->
+        <main class="{% block main_class %}main{% endblock main_class %}">
+            {% block main %}
+            {% endblock main %}
+        </main>
+        <!-- End of Main -->
+
+        <!-- Start of Footer -->
+        {% include 'include/_footer.html' %}
+        <!-- End of Footer -->
+    </div>
+    <!-- End of .page-wrapper -->
+
+    <!-- Start of Sticky Footer -->
+    {% include 'include/_sticky_footer.html' %}
+    <!-- End of Sticky Footer -->
+
+    <!-- Start of Scroll Top -->
+    <a id="scroll-top" class="scroll-top" href="demo2.html#top" title="Top" role="button">
+        <i class="w-icon-angle-up"></i> <svg
+            version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70">
+            <circle id="progress-indicator" fill="transparent" stroke="#000000" stroke-miterlimit="10" cx="35" cy="35"
+                r="34" style="stroke-dasharray: 16.4198, 400;"></circle>
+        </svg>
+    </a>
+    <!-- End of Scroll Top -->
+
+    <!-- Start of Mobile Menu -->
+    {% include 'include/_mobile_menu_wrapper.html' %}
+    <!-- End of Mobile Menu -->
+
+    <!-- Start of Newsletter popup -->
+    {% include 'include/_newsletter_popup.html' %}
+    <!-- End of Newsletter popup -->
+
+    <!-- Start of Quick View -->
+    {% include 'include/_quick_view.html' %}
+    <!-- End of Quick view -->
+
+    <!-- Plugin JS File -->
+    <script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/jquery.plugin/jquery.plugin.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/jquery.countdown/jquery.countdown.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/codemirror/codemirror.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/floating-parallax/parallax.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/zoom/jquery.zoom.js' %}"></script>
+
+
+    view-pass.js
+    <!-- Main Js -->
+    <script src="{% static 'assets/js/main.min.js' %}"></script>
+    <script src="{% static 'assets/js/view-pass.js' %}"></script>
+</body>
+
+</html>

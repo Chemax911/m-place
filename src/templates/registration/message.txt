@@ -1,0 +1,15 @@
+{% load i18n %}{% autoescape off %}
+{% trans 'Поздравляем ' %}{{ user.username }}!
+
+{% trans 'Вы успешно зарегистрировались на сайте ' %}Discount.pp.ua
+
+{% trans 'Для завершения регистрации необходимо в течении 24 часов пройти по ссылке' %}
+
+http://{{ domain }}{% url 'verify_email' uidb64=uid token=token %}
+
+{% trans 'Если к данной регистрации Вы не имеете никакого отношения, то просто удалите это письмо' %}
+
+----
+
+{% trans 'С уважением, команда ' %}Discount.pp.ua
+{% endautoescape %}

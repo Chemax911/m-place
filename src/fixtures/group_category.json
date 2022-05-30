@@ -1,0 +1,751 @@
+[
+    {
+        "id": 2416,
+        "order": 1,
+        "title": "Ноутбуки и компьютеры",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/computers-notebooks/c80253/",
+        "border": 0,
+        "logos": [
+        {
+            "id": 153,
+            "logo": "https://content.rozetka.com.ua/producers/landing/original/187349055.png",
+            "manual_url": "https://rozetka.com.ua/producer/rozetka/",
+            "name": "rozetka",
+            "title": "Rozetka"
+        },
+        {
+            "id": 448,
+            "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349803.jpg",
+            "manual_url": "https://rozetka.com.ua/news-articles-promotions/promotions/rztk_brand/",
+            "name": "rztk",
+            "title": "RZTK"
+        },
+        {
+            "id": 277,
+            "logo": "https://content.rozetka.com.ua/producers/landing/original/187345452.png",
+            "manual_url": "https://rozetka.com.ua/apple/c4627486/",
+            "name": "apple",
+            "title": "Apple"
+        },
+        {
+            "id": 80,
+            "logo": "https://content2.rozetka.com.ua/producers/landing/original/187348591.png",
+            "manual_url": "https://rozetka.com.ua/producer/lenovo/?section_id=80253",
+            "name": "lenovo",
+            "title": "Lenovo"
+        },
+        {
+        "id": 10,
+        "logo": "https://content1.rozetka.com.ua/producers/landing/original/187345450.png",
+        "manual_url": "https://rozetka.com.ua/producer/asus/?section_id=80253",
+        "name": "asus",
+        "title": "ASUS"
+        },
+        {
+        "id": 119,
+        "logo": "https://content1.rozetka.com.ua/producers/landing/original/187348150.jpg",
+        "manual_url": "https://rozetka.com.ua/producer/acer/",
+        "name": "acer",
+        "title": "Acer"
+        },
+        {
+        "id": 17,
+        "logo": "https://content2.rozetka.com.ua/producers/landing/original/187345446.png",
+        "manual_url": "https://rozetka.com.ua/producer/samsung/",
+        "name": "samsung",
+        "title": "Samsung"
+        },
+        {
+        "id": 246,
+        "logo": "https://content1.rozetka.com.ua/producers/landing/original/187349579.png",
+        "manual_url": "https://rozetka.com.ua/pages/logitech/",
+        "name": "logitech",
+        "title": "Logitech"
+        }
+        ],
+        "icon_src": null,
+        "category_id": 80253,
+        "top_category_id": 80253,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content.rozetka.com.ua/fatmenu/section_mobile_icon/original/232265445.jpg",
+        "on_subdomain": 0,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/promo/allforgamers/",
+        "banner_src": "https://content2.rozetka.com.ua/fatmenu/section_images/original/266992830.jpg",
+        "outer_link": false
+    },
+    {
+        "id": 3361,
+        "order": 2,
+        "title": "Смартфоны, ТВ и электроника",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/telefony-tv-i-ehlektronika/c4627949/",
+        "border": 0,
+        "logos": [
+            {
+                "id": 213,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349055.png",
+                "manual_url": "https://rozetka.com.ua/producer/rozetka/",
+                "name": "rozetka",
+                "title": "Rozetka"
+            },
+            {
+                "id": 427,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349803.jpg",
+                "manual_url": "https://rozetka.com.ua/news-articles-promotions/promotions/rztk_brand/",
+                "name": "rztk",
+                "title": "RZTK"
+            },
+            {
+                "id": 38,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187345446.png",
+                "manual_url": "https://rozetka.com.ua/producer/samsung/",
+                "name": "samsung",
+                "title": "Samsung"
+            },
+            {
+                "id": 31,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187345452.png",
+                "manual_url": "https://rozetka.com.ua/apple/c4627486/",
+                "name": "apple",
+                "title": "Apple"
+            },
+            {
+                "id": 147,
+                "logo": "https://content1.rozetka.com.ua/producers/landing/original/187348982.png",
+                "manual_url": "https://rozetka.com.ua/search/?text=huawei&producer=511&p=1",
+                "name": "huawei",
+                "title": "Huawei"
+            },
+            {
+                "id": 24,
+                "logo": "https://content1.rozetka.com.ua/producers/landing/original/187345451.png",
+                "manual_url": "https://rozetka.com.ua/producer/lg/",
+                "name": "lg-electronics",
+                "title": "LG Electronics"
+            },
+            {
+                "id": 415,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/229459256.jpg",
+                "manual_url": "https://rozetka.com.ua/pages/bang-olufsen/",
+                "name": "bang-olufsen",
+                "title": "Bang & Olufsen"
+            }
+        ],
+        "icon_src": null,
+        "category_id": 4627949,
+        "top_category_id": 4627949,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content.rozetka.com.ua/fatmenu/section_mobile_icon/original/232265447.jpg",
+        "on_subdomain": 0,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/news-articles-promotions/promotions/194982_sale_samsung/",
+        "banner_src": "https://content.rozetka.com.ua/fatmenu/section_images/original/266840184.jpg",
+        "outer_link": false
+    },
+    {
+        "id": 18421,
+        "order": 3,
+        "title": "Товары для геймеров",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/game-zone/c80261/",
+        "border": 0,
+        "logos": [
+            {
+                "id": 424,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349803.jpg",
+                "manual_url": "https://rozetka.com.ua/news-articles-promotions/promotions/rztk_brand/",
+                "name": "rztk",
+                "title": "RZTK"
+            },
+            {
+                "id": 291,
+                "logo": "https://content1.rozetka.com.ua/producers/landing/original/187345450.png",
+                "manual_url": "https://rozetka.com.ua/producer/asus/?section_id=80253",
+                "name": "asus",
+                "title": "ASUS"
+            },
+            {
+                "id": 286,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349730.jpg",
+                "manual_url": "https://rozetka.com.ua/playstation-store/c4668379/",
+                "name": "playstation",
+                "title": "Sony PlayStation"
+            },
+            {
+                "id": 296,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349728.jpg",
+                "manual_url": "https://rozetka.com.ua/search/?text=HyperX&producer=253710",
+                "name": "hyperx",
+                "title": "HyperX"
+            },
+            {
+                "id": 306,
+                "logo": "https://content1.rozetka.com.ua/producers/landing/original/187349734.jpg",
+                "manual_url": "https://rozetka.com.ua/search/?text=razer&producer=296",
+                "name": "razer",
+                "title": "Razer"
+            },
+            {
+                "id": 311,
+                "logo": "https://content1.rozetka.com.ua/producers/landing/original/187348150.jpg",
+                "manual_url": "https://rozetka.com.ua/producer/acer/",
+                "name": "acer",
+                "title": "Acer"
+            },
+            {
+                "id": 301,
+                "logo": "https://content1.rozetka.com.ua/producers/landing/original/187349579.png",
+                "manual_url": "https://rozetka.com.ua/pages/logitech/",
+                "name": "logitech",
+                "title": "Logitech"
+            }
+        ],
+        "icon_src": null,
+        "category_id": 80261,
+        "top_category_id": 80253,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content1.rozetka.com.ua/fatmenu/section_mobile_icon/original/232265454.jpg",
+        "on_subdomain": 0,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/promo/allforgamers/",
+        "banner_src": "https://content2.rozetka.com.ua/fatmenu/section_images/original/266992599.jpg",
+        "outer_link": false
+    },
+    {
+        "id": 4306,
+        "order": 4,
+        "title": "Бытовая техника",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/bytovaya-tekhnika/c8026144/",
+        "border": 0,
+        "logos": [
+            {
+                "id": 165,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349055.png",
+                "manual_url": "https://rozetka.com.ua/producer/rozetka/",
+                "name": "rozetka",
+                "title": "Rozetka"
+            },
+            {
+                "id": 363,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349803.jpg",
+                "manual_url": "https://rozetka.com.ua/news-articles-promotions/promotions/rztk_brand.html",
+                "name": "rztk",
+                "title": "RZTK"
+            },
+            {
+                "id": 45,
+                "logo": "https://content1.rozetka.com.ua/producers/landing/original/187345449.png",
+                "manual_url": "https://rozetka.com.ua/pages/bosch/",
+                "name": "bosch",
+                "title": "Bosch"
+            },
+            {
+                "id": 52,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349458.png",
+                "manual_url": "https://rozetka.com.ua/producer/siemens/",
+                "name": "siemens",
+                "title": "Siemens"
+            },
+            {
+                "id": 66,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187345447.png",
+                "manual_url": "https://rozetka.com.ua/producer/philips/?section_id=80025",
+                "name": "philips",
+                "title": "Philips"
+            },
+            {
+                "id": 73,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187345446.png",
+                "manual_url": "https://rozetka.com.ua/producer/samsung/",
+                "name": "samsung",
+                "title": "Samsung"
+            }
+        ],
+        "icon_src": null,
+        "category_id": 80025,
+        "top_category_id": 80025,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content.rozetka.com.ua/fatmenu/section_mobile_icon/original/232265441.jpg",
+        "on_subdomain": 1,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/promo/homeappliances/",
+        "banner_src": "https://content1.rozetka.com.ua/fatmenu/section_images/original/267204001.jpg",
+        "outer_link": false
+    },
+    {
+        "id": 5300,
+        "order": 5,
+        "title": "Товары для дома",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/tovary-dlya-doma/c2394287/",
+        "border": 0,
+        "logos": [
+            {
+                "id": 231,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349055.png",
+                "manual_url": "https://rozetka.com.ua/producer/rozetka/",
+                "name": "rozetka",
+                "title": "Rozetka"
+            },
+            {
+                "id": 430,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349803.jpg",
+                "manual_url": "https://rozetka.com.ua/news-articles-promotions/promotions/rztk_brand/",
+                "name": "rztk",
+                "title": "RZTK"
+            },
+            {
+                "id": 412,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/220291333.jpg",
+                "manual_url": "https://rozetka.com.ua/prigotovlenie-pishi/c4626599/86818=ingenio,ingenio-authentic,ingenio-chef-s,ingenio-elegance,ingenio-emotion,ingenio-expertise,ingenio-mineralia-force,ingenio-preference/",
+                "name": "tefal",
+                "title": "Tefal"
+            }
+        ],
+        "icon_src": null,
+        "category_id": 2394287,
+        "top_category_id": 2394287,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content.rozetka.com.ua/fatmenu/section_mobile_icon/original/232265439.jpg",
+        "on_subdomain": 0,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/promo/bytovayahimiya/",
+        "banner_src": "https://content2.rozetka.com.ua/fatmenu/section_images/original/267041644.jpg",
+        "outer_link": false
+    },
+    {
+        "id": 6700,
+        "order": 6,
+        "title": "Инструменты и автотовары",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/instrumenty-i-avtotovary/c4627858/",
+        "border": 0,
+        "logos": [
+            {
+                "id": 183,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349055.png",
+                "manual_url": "https://rozetka.com.ua/producer/rozetka/",
+                "name": "rozetka",
+                "title": "Rozetka"
+            },
+            {
+                "id": 356,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349803.jpg",
+                "manual_url": "https://rozetka.com.ua/news-articles-promotions/promotions/rztk_brand.html",
+                "name": "rztk",
+                "title": "RZTK"
+            }
+        ],
+        "icon_src": null,
+        "category_id": 4627858,
+        "top_category_id": 4627858,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content2.rozetka.com.ua/fatmenu/section_mobile_icon/original/232036658.jpg",
+        "on_subdomain": 0,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/promo/auto_supplies/",
+        "banner_src": "https://content.rozetka.com.ua/fatmenu/section_images/original/267519333.jpg",
+        "outer_link": false
+    },
+    {
+        "id": 7806,
+        "order": 7,
+        "title": "Сантехника и ремонт",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/santekhnika-i-remont/c4628418/",
+        "border": 0,
+        "logos": [
+            {
+                "id": 207,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349055.png",
+                "manual_url": "https://rozetka.com.ua/producer/rozetka/",
+                "name": "rozetka",
+                "title": "Rozetka"
+            },
+            {
+                "id": 433,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349803.jpg",
+                "manual_url": "https://rozetka.com.ua/news-articles-promotions/promotions/rztk_brand/",
+                "name": "rztk",
+                "title": "RZTK"
+            }
+        ],
+        "icon_src": null,
+        "category_id": 4628418,
+        "top_category_id": 4628418,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content.rozetka.com.ua/fatmenu/section_mobile_icon/original/232265446.jpg",
+        "on_subdomain": 0,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/promo/goodsforbathroom/",
+        "banner_src": "https://content2.rozetka.com.ua/fatmenu/section_images/original/266982021.jpg",
+        "outer_link": false
+    },
+    {
+        "id": 8261,
+        "order": 8,
+        "title": "Дача, сад и огород",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/dacha-sad-ogorod/c2394297/",
+        "border": 0,
+        "logos": [
+            {
+                "id": 171,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349055.png",
+                "manual_url": "https://rozetka.com.ua/producer/rozetka/",
+                "name": "rozetka",
+                "title": "Rozetka"
+            },
+            {
+                "id": 351,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349803.jpg",
+                "manual_url": "https://rozetka.com.ua/news-articles-promotions/promotions/rztk_brand.html",
+                "name": "rztk",
+                "title": "RZTK"
+            }
+        ],
+        "icon_src": null,
+        "category_id": 2394297,
+        "top_category_id": 2394297,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content.rozetka.com.ua/fatmenu/section_mobile_icon/original/232265442.jpg",
+        "on_subdomain": 0,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/promo/garden/",
+        "banner_src": "https://content.rozetka.com.ua/fatmenu/section_images/original/266707023.jpg",
+        "outer_link": false
+    },
+    {
+        "id": 9017,
+        "order": 9,
+        "title": "Спорт и увлечения",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/sport-i-uvlecheniya/c4627893/",
+        "border": 0,
+        "logos": [
+            {
+                "id": 219,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349055.png",
+                "manual_url": "https://rozetka.com.ua/producer/rozetka/",
+                "name": "rozetka",
+                "title": "Rozetka"
+            },
+            {
+                "id": 451,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349803.jpg",
+                "manual_url": "https://rozetka.com.ua/news-articles-promotions/promotions/rztk_brand/",
+                "name": "rztk",
+                "title": "RZTK"
+            },
+            {
+                "id": 361,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349807.png",
+                "manual_url": "https://rozetka.com.ua/pages/legoadults/",
+                "name": "lego",
+                "title": "LEGO"
+            }
+        ],
+        "icon_src": null,
+        "category_id": 4627893,
+        "top_category_id": 4627893,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content2.rozetka.com.ua/fatmenu/section_mobile_icon/original/232265448.jpg",
+        "on_subdomain": 0,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/promo/goodsactivetime/",
+        "banner_src": "https://content2.rozetka.com.ua/fatmenu/section_images/original/266888351.jpg",
+        "outer_link": false
+    },
+    {
+        "id": 10515,
+        "order": 10,
+        "title": "Одежда, обувь и украшения",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/shoes_clothes/c1162030/",
+        "border": 0,
+        "logos": [
+            {
+                "id": 201,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349055.png",
+                "manual_url": "https://rozetka.com.ua/pages/rozetka/",
+                "name": "rozetka",
+                "title": "Rozetka"
+            },
+            {
+                "id": 128,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187348705.png",
+                "manual_url": "https://rozetka.com.ua/pages/newbalance/",
+                "name": "new-balance",
+                "title": "New Balance"
+            },
+            {
+                "id": 242,
+                "logo": "https://content1.rozetka.com.ua/producers/landing/original/187349501.png",
+                "manual_url": "https://rozetka.com.ua/pages/nike/",
+                "name": "nike",
+                "title": "Nike"
+            },
+            {
+                "id": 138,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349076.png",
+                "manual_url": "https://rozetka.com.ua/pages/geox/",
+                "name": "geox",
+                "title": "Geox"
+            },
+            {
+                "id": 144,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349077.png",
+                "manual_url": "https://rozetka.com.ua/pages/ecco/",
+                "name": "ecco",
+                "title": "ECCO"
+            },
+            {
+                "id": 136,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187348711.png",
+                "manual_url": "https://rozetka.com.ua/pages/parfois/",
+                "name": "parfois",
+                "title": "Parfois"
+            }
+        ],
+        "icon_src": null,
+        "category_id": 1162030,
+        "top_category_id": 1162030,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content1.rozetka.com.ua/fatmenu/section_mobile_icon/original/232265457.png",
+        "on_subdomain": 0,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/promo/hellosummer/",
+        "banner_src": "https://content1.rozetka.com.ua/fatmenu/section_images/original/265448036.jpg",
+        "outer_link": false
+    },
+    {
+        "id": 12258,
+        "order": 11,
+        "title": "Красота и здоровье",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/krasota-i-zdorovje/c4629305/",
+        "border": 0,
+        "logos": [
+            {
+                "id": 195,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349055.png",
+                "manual_url": "https://rozetka.com.ua/producer/rozetka/",
+                "name": "rozetka",
+                "title": "Rozetka"
+            },
+            {
+                "id": 436,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349803.jpg",
+                "manual_url": "https://rozetka.com.ua/news-articles-promotions/promotions/rztk_brand/",
+                "name": "rztk",
+                "title": "RZTK"
+            },
+            {
+                "id": 265,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349617.jpg",
+                "manual_url": "https://rozetka.com.ua/pages/gillette_club/",
+                "name": "gillette",
+                "title": "Gillette"
+            },
+            {
+                "id": 378,
+                "logo": "https://content1.rozetka.com.ua/producers/landing/original/187349925.png",
+                "manual_url": "https://rozetka.com.ua/pages/vichy/",
+                "name": "vichy",
+                "title": "Vichy"
+            },
+            {
+                "id": 383,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349931.png",
+                "manual_url": "https://rozetka.com.ua/pages/la-roche-posay/",
+                "name": "la-roche-posay",
+                "title": "La Roche-Posay"
+            },
+            {
+                "id": 409,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/208962885.jpg",
+                "manual_url": "https://rozetka.com.ua/pages/loccitane/",
+                "name": "loccitane-en-provence",
+                "title": "L'Occitane en Provence"
+            },
+            {
+                "id": 388,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349932.png",
+                "manual_url": "https://rozetka.com.ua/pages/cerave_skin/",
+                "name": "cerave",
+                "title": "CeraVe"
+            },
+            {
+                "id": 421,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/237961070.png",
+                "manual_url": "https://rozetka.com.ua/pages/loreal_paris/",
+                "name": "loreal-paris",
+                "title": "L'Oreal Paris"
+            }
+        ],
+        "icon_src": null,
+        "category_id": 4629305,
+        "top_category_id": 4629305,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content2.rozetka.com.ua/fatmenu/section_mobile_icon/original/232265450.jpg",
+        "on_subdomain": 0,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/news-articles-promotions/promotions/195113_sale50_dermatokosmetika/",
+        "banner_src": "https://content2.rozetka.com.ua/fatmenu/section_images/original/267169041.jpg",
+        "outer_link": false
+    },
+    {
+        "id": 13224,
+        "order": 12,
+        "title": "Детские товары",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/kids/c88468/",
+        "border": 0,
+        "logos": [
+            {
+                "id": 177,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349055.png",
+                "manual_url": "https://rozetka.com.ua/producer/rozetka/",
+                "name": "rozetka",
+                "title": "Rozetka"
+            },
+            {
+                "id": 91,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349807.png",
+                "manual_url": "https://rozetka.com.ua/konstruktory-LEGO/c4625535/",
+                "name": "lego",
+                "title": "LEGO"
+            },
+            {
+                "id": 98,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187345476.png",
+                "manual_url": "https://rozetka.com.ua/pages/pampers/",
+                "name": "pampers",
+                "title": "Pampers"
+            },
+            {
+                "id": 112,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187345480.png",
+                "manual_url": "https://rozetka.com.ua/producer/huggies/",
+                "name": "huggies",
+                "title": "Huggies"
+            },
+            {
+                "id": 403,
+                "logo": "https://content1.rozetka.com.ua/producers/landing/original/190957428.jpg",
+                "manual_url": "https://rozetka.com.ua/pages/smoby/",
+                "name": "smoby",
+                "title": "Smoby"
+            },
+            {
+                "id": 105,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/232117876.png",
+                "manual_url": "https://rozetka.com.ua/pages/hasbro/",
+                "name": "hasbro",
+                "title": "Hasbro"
+            },
+            {
+                "id": 418,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/230511120.jpg",
+                "manual_url": "https://rozetka.com.ua/pages/lol_surprise/",
+                "name": "l.o.l.-surprise",
+                "title": "L.O.L. Surprise (ЛОЛ Сюрприз)"
+            }
+        ],
+        "icon_src": null,
+        "category_id": 88468,
+        "top_category_id": 88468,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content1.rozetka.com.ua/fatmenu/section_mobile_icon/original/232265443.jpg",
+        "on_subdomain": 0,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/promo/childrenday/",
+        "banner_src": "https://content.rozetka.com.ua/fatmenu/section_images/original/266612603.jpg",
+        "outer_link": false
+    },
+    {
+        "id": 15954,
+        "order": 13,
+        "title": "Зоотовары",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/zootovary/c3520929/",
+        "border": 0,
+        "logos": [
+            {
+                "id": 445,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/259534496.jpg",
+                "manual_url": "https://rozetka.com.ua/zootovary/c3520929/producer=royal-canin/",
+                "name": "royal-canin",
+                "title": "Royal Canin"
+            },
+            {
+                "id": 439,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/186619579.jpg",
+                "manual_url": "https://rozetka.com.ua/zootovary/c3520929/producer=pro-plan/",
+                "name": "pro-plan",
+                "title": "Purina Pro Plan"
+            },
+            {
+                "id": 237,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349055.png",
+                "manual_url": "https://rozetka.com.ua/producer/rozetka/",
+                "name": "rozetka",
+                "title": "Rozetka"
+            }
+        ],
+        "icon_src": null,
+        "category_id": 3520929,
+        "top_category_id": 2394287,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content.rozetka.com.ua/fatmenu/section_mobile_icon/original/235309441.png",
+        "on_subdomain": 0,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/promo/protectpets/",
+        "banner_src": "https://content2.rozetka.com.ua/fatmenu/section_images/original/263191346.jpg",
+        "outer_link": false
+    },
+    {
+        "id": 14939,
+        "order": 14,
+        "title": "Алкогольные напитки и продукты",
+        "parent_id": 0,
+        "manual_url": "https://rozetka.com.ua/alkoholnie-napitki-i-produkty/c4626923/",
+        "border": 0,
+        "logos": [
+            {
+                "id": 159,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349055.png",
+                "manual_url": "https://rozetka.com.ua/producer/rozetka/",
+                "name": "rozetka",
+                "title": "Rozetka"
+            },
+            {
+                "id": 373,
+                "logo": "https://content.rozetka.com.ua/producers/landing/original/187349857.jpg",
+                "manual_url": "https://rozetka.com.ua/pages/shopinshopglo/",
+                "name": "glo",
+                "title": "glo"
+            },
+            {
+                "id": 393,
+                "logo": "https://content2.rozetka.com.ua/producers/landing/original/187349971.jpg",
+                "manual_url": "https://rozetka.com.ua/pages/iqos/",
+                "name": "iqos",
+                "title": "IQOS"
+            }
+        ],
+        "icon_src": null,
+        "category_id": 4626923,
+        "top_category_id": 4626923,
+        "target_blank": 0,
+        "banner_mobile_src": "https://content.rozetka.com.ua/fatmenu/section_mobile_icon/original/232265440.jpg",
+        "on_subdomain": 0,
+        "is_portal": false,
+        "banner_href": "https://rozetka.com.ua/promo/foods/?section_id=4594201",
+        "banner_src": "https://content.rozetka.com.ua/fatmenu/section_images/original/266985680.jpg",
+        "outer_link": false
+    }
+]

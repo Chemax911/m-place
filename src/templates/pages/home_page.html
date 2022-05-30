@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block head_title %}
+    {{ block.super }}
+{% endblock head_title %}
+{% block main_class %}{{ block.super }}{% endblock main_class %}
+{% block main %}
+    <ul>
+        <li>
+            User: {{ user }}
+        </li>
+        <li>
+            <a href="{% url 'home_page' %}">Home</a>
+        </li>
+    </ul>
+{% endblock main %}

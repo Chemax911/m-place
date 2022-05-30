@@ -1,0 +1,76 @@
+{% extends 'one_col.html' %}
+{% load static %}
+{% block head_title %}Sign in | {{ block.super }}{% endblock head_title %}
+{% block main_class %}{{ block.super }} login-page{% endblock main_class %}
+{% block page_header %}
+    <div class="page-header">
+        <div class="container">
+            <h1 class="page-title mb-0">My Account</h1>
+        </div>
+    </div>
+{% endblock page_header %}
+{% block breadcrumb %}
+    <nav class="breadcrumb-nav">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li><a href="{% url 'home_page' %}">Home</a></li>
+                <li>My account</li>
+            </ul>
+        </div>
+    </nav>
+{% endblock breadcrumb %}
+{% block page_content %}
+    <!-- Start of Page Content -->
+    <div class="page-content">
+        <div class="container">
+            <div class="login-popup">
+                <div class="tab tab-nav-boxed tab-nav-center tab-nav-underline">
+                    <ul class="nav nav-tabs text-uppercase" role="tablist">
+                        <li class="nav-item">
+                            <a href="login.html#sign-in" class="nav-link active">Sign In</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="sign-in">
+
+                            {% if form.errors %}
+                                <div class="alert alert-error alert-simple alert-inline ">
+                                    {{ form.errors.error }}
+                                </div>
+                            {% endif %}
+
+                            <form action="{% url 'login' %}" method="POST">
+                                {% csrf_token %}
+                                <div class="form-group mb-0">
+                                    <label>Введите адрес электронной почты *</label>
+                                    <input class="form-control" type="text" name="username" id="id_username" required="">
+                                </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Пароль *</label>
+                                    <input class="form-control password1" type="password" name="password" required="" id="id_password">
+                                    <span class="fa fa-fw fa-eye password-icon show-password"></span>
+                                </div>
+                                <div class="form-checkbox d-flex align-items-center justify-content-between">
+                                    <input type="checkbox" class="custom-checkbox" id="remember1" name="remember1" required="">
+                                    <label for="remember1">Remember me</label>
+                                    <a href="{% url 'password_reset' %}">Забыли пароль?</a>
+                                </div>
+                                <button type="submit" class="button btn btn-primary">Sign In</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <p class="text-center">Sign in with social account</p>
+
+                    <div class="social-icons social-icon-border-color d-flex justify-content-center">
+                        <a href="login.html#" class="social-icon social-facebook w-icon-facebook"></a>
+                        <a href="login.html#" class="social-icon social-twitter w-icon-twitter"></a>
+                        <a href="login.html#" class="social-icon social-google fab fa-google"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock page_content %}

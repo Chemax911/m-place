@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+{% load i18n static %}
+
+<head>
+
+    <title>{% trans 'Активация аккаунта на ' %}Discount.pp.ua</title>
+
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+            -o-object-fit: cover;
+            object-fit: cover;
+            vertical-align: middle;
+        }
+        .xfmc1 {
+            position: relative;
+            -webkit-transition: margin 0.4s, opacity 0.5s;
+            transition: margin 0.4s, opacity 0.5s;
+        }
+        .xfmc2 {
+            font-family: Poppins, sans-serif;
+            background: #fff;
+            color: #333;
+        }
+        .xfmc3 {
+            padding-top: 3.2rem;
+            padding-bottom: 3.3rem;
+            margin-bottom: 40px;
+            color: #333;
+            background: #fff;
+            font-size: 1.2rem;
+            border-bottom: 1px solid #eee;
+        }
+        .xfmc4{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        .xfmc5 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+        }
+        .xfmc13 {}
+        .xfmc3 {
+            min-width: 14.4rem;
+            margin-right: 2rem;
+        }
+        .xfmc7 img {
+            display: block;
+        }
+        .xfmc6 {
+            margin-left: 0rem !important;
+        }
+        .xfmc8 {
+            display: block;
+            position: relative;
+        }
+        .xfmc14 {}
+        .xfmc9 {
+            max-width: 1280px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .xfmc10 {
+            width: 100%;
+        }
+        .xfmc11 {
+            display: block;
+            padding-top: 0.79em;
+            padding-bottom: 0.79em;
+            line-height: 1;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: inherit;
+            font-weight: 600;
+            font-size: 1.4rem;
+            text-decoration: none;
+            -webkit-transition: color 0.3s, border-color 0.3s, background-color 0.3s, -webkit-box-shadow 0.3s;
+            transition: color 0.3s, border-color 0.3s, background-color 0.3s, -webkit-box-shadow 0.3s;
+            transition: color 0.3s, border-color 0.3s, background-color 0.3s, box-shadow 0.3s;
+            transition: color 0.3s, border-color 0.3s, background-color 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+        .xfmc12 {
+            color: #fff;
+            border-color: #336699;
+            background-color: #336699;
+        }
+        .xfmc12:hover,
+        .xfmc12:active,
+        .xfmc12:focus {
+            color: #fff;
+            border-color: #3c78b4;
+            background-color: #3c78b4;
+        }
+        a {
+            color: #0088cc;
+        }
+
+        a:hover,
+        a:active {
+            color: #666;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="xfmc1">
+
+        <div class="xfmc2">
+            <div class="xfmc3">
+                <div class="xfmc4">
+                    <div class="xfmc5 xfmc13">
+                        <a href="http://127.0.0.1:8000" class="xfmc6 xfmc7">
+                            <img src="cid:assets/images/demos/demo2/header-logo.png" alt="logo" width="144" height="45" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Header Middle -->
+        </div>
+
+        <div class="xfmc8">
+            <div class="xfmc14">
+                <div class="xfmc9">
+                    <!-- Start of block content -->
+                    <p>
+                        {% trans 'Поздравляем ' %}{{ user.username }}!
+                    </p>
+                    <br>
+                    <p>
+                        {% trans 'Вы успешно зарегистрировались на сайте ' %}Discount.pp.ua
+                    </p>
+                    <p>
+                        {% trans 'Для завершения регистрации необходимо в течении 24 часов ее подтвердить' %}
+                    </p>
+                    <br>
+                    <a class="xfmc10 xfmc11 xfmc12" href="{{ domain }}{% url 'verify_email' uidb64=uid token=token %}">
+                        {% trans 'Подтвердить регистрацию' %}
+                    </a>
+                    <br>
+                    <p>
+                        {% trans 'Если к данной регистрации Вы не имеете никакого отношения, то просто удалите это письмо' %}
+                    </p>
+                    <br>
+                    <p class="xfmc15">
+                        {% trans 'С уважением, команда ' %}
+                        <a href="http://{{ domain }}" target="_blank">Discount.pp.ua</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
